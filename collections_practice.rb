@@ -12,3 +12,4 @@ def sort_array_char_count(array)
     new << character.length
     new.sort
 end
+end
