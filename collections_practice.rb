@@ -9,7 +9,7 @@ end
 def sort_array_char_count(array)
   new = []
   array.each do |character|
-    new << character.length
-    new.sort
+    new.sort << character.length
+    
 end
 end
